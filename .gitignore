@@ -1,0 +1,40 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Model weights and checkpoints
+/checkpoints/
+/model/
+/models/
+*.bin
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Generated outputs
+results/
+output/
+outputs/
+logs/
+tmp/
+temp/
+*.tmp
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini

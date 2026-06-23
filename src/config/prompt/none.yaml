@@ -1,0 +1,35 @@
+# instruction: "Instruction: 请根据提供的图片回答以下单选题"
+
+# prompt_format: 
+#   - |
+#     Question: {}<image>{}</image>\n
+#     (A) {}
+#     (B) {}
+#     (C) {}
+#     (D) {}
+#     (E) {}
+#     (F) {}
+#     Answer:
+prompt_templates:
+  en:
+    instruction: "Instruction: Please try to answer the single-answer multiple choice question below based on the picture provided."
+    prompt_format: |
+      Question: {}<image>{}</image>
+      (A) {}
+      (B) {}
+      (C) {}
+      (D) {}
+      (E) {}
+      (F) {}
+      Answer:
+  zh:
+    instruction: "Instruction: 请根据提供的图片回答以下单选题"
+    prompt_format: |
+      题目: {}<image>{}</image>
+      (A) {}
+      (B) {}
+      (C) {}
+      (D) {}
+      (E) {}
+      (F) {}
+      答案:

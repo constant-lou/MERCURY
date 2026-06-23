@@ -1,0 +1,43 @@
+# prompt_format: 
+#   - |
+#     请尝试根据提供的图片回答以下单选题。让我们逐一思考每个选项，逐步分析。你回答的最后一行应该用以下格式：“答案：$LETTER”，其中$LETTER是你认为正确答案的字母。
+    
+#     {question}
+
+# instruction: "Instruction: 请根据提供的图片尝试回答下面的单选题。让我们对每个选项进行思考。让我们一步一步地思考"
+
+# prompt_format: 
+#   - |
+#     Question: {}<image>{}</image>\n
+#     (A) {}
+#     (B) {}
+#     (C) {}
+#     (D) {}
+#     (E) {}
+#     (F) {}
+#     Answer:
+
+prompt_templates:
+  en:
+    instruction: "Instruction: Please try to answer the single-answer multiple choice question below based on the picture provided. Let's think through each option. Let's think step by step."
+    prompt_format: |
+      Question: {}<image>{}</image>
+      (A) {}
+      (B) {}
+      (C) {}
+      (D) {}
+      (E) {}
+      (F) {}
+      Explanation: 
+      Answer:
+  zh:
+    instruction: "Instruction: 请根据提供的图片尝试回答下面的单选题。让我们对每个选项进行思考。让我们一步一步地思考"
+    prompt_format: |
+      题目: {}<image>{}</image>
+      (A) {}
+      (B) {}
+      (C) {}
+      (D) {}
+      (E) {}
+      (F) {}
+      答案:
