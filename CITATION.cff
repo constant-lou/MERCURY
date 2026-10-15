@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use MERCURY or BiMeRe, please cite the accompanying MMAsia 2026 paper."
+type: software
+title: "MERCURY"
+authors:
+  - family-names: Lou
+    given-names: Xiaojian
+  - family-names: Yang
+    given-names: Qimeng
+  - family-names: Song
+    given-names: Hui
+repository-code: "https://github.com/constant-lou/MERCURY"
+url: "https://github.com/constant-lou/MERCURY"
+preferred-citation:
+  type: conference-paper
+  title: "MERCURY: Metaphor Evidence Reasoning with Cross-View Consistency and Equivariance-Constrained Calibration"
+  authors:
+    - family-names: Lou
+      given-names: Xiaojian
+    - family-names: Yang
+      given-names: Qimeng
+    - family-names: Song
+      given-names: Hui
+  collection-title: "ACM Multimedia Asia (MMAsia '26)"
+  year: 2026
+  url: "https://github.com/constant-lou/MERCURY"
